@@ -1,11 +1,5 @@
-//Gerente é um Funcionário, Gerente herda da classe Funcionário, assina o contrato Autenticavel
-
-public class Gerente extends Funcionario implements Autenticavel {
-
+public class ClientesExternos implements Autenticavel {
     private int senha;
-    public double getBonificacao() {
-        return super.getSalario();
-    }
 
     @Override
     public void setSenha(int senha) {

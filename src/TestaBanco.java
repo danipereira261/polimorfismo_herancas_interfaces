@@ -1,6 +1,6 @@
 public class TestaBanco {
     public static void main(String[] args) {
-        Cliente paulo = new Cliente();
+        ClienteBanco paulo = new ClienteBanco();
         paulo.setNome("Paulo Silveira");
         paulo.setCpf("222.222.222.-22");
         paulo.setProfissao("programador");
@@ -9,7 +9,6 @@ public class TestaBanco {
         contaDoPaulo.deposita(100);
 
         contaDoPaulo.setTitular(paulo);
-        System.out.println(contaDoPaulo.getTitular().getNome());
         System.out.println(contaDoPaulo.getTitular());
 
     }
